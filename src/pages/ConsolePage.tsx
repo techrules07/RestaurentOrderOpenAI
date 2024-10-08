@@ -24,7 +24,7 @@ import './ConsolePage.scss';
 export function ConsolePage() {
 
   localStorage.setItem('tmp::voice_api_key', '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');
-  const sampleString = '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'
+  const apiKey = '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'
   // const apiKey = LOCAL_RELAY_SERVER_URL
   //   ? ''
   //   : localStorage.getItem('tmp::voice_api_key') ||
@@ -45,7 +45,7 @@ export function ConsolePage() {
       LOCAL_RELAY_SERVER_URL
         ? { url: LOCAL_RELAY_SERVER_URL }
         : {
-            apiKey: sampleString,
+            apiKey: apiKey,
             dangerouslyAllowAPIKeyInBrowser: true,
           }
     )
