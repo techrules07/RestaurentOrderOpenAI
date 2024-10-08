@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RestaurentOrderOpenAI/static/css/main.020f9fc9.css",
+    "main.js": "/RestaurentOrderOpenAI/static/js/main.8872c576.js",
+    "static/js/453.e76c913f.chunk.js": "/RestaurentOrderOpenAI/static/js/453.e76c913f.chunk.js",
+    "index.html": "/RestaurentOrderOpenAI/index.html",
+    "main.020f9fc9.css.map": "/RestaurentOrderOpenAI/static/css/main.020f9fc9.css.map",
+    "main.8872c576.js.map": "/RestaurentOrderOpenAI/static/js/main.8872c576.js.map",
+    "453.e76c913f.chunk.js.map": "/RestaurentOrderOpenAI/static/js/453.e76c913f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.020f9fc9.css",
+    "static/js/main.8872c576.js"
+  ]
+}
