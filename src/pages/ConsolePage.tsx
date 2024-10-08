@@ -22,14 +22,17 @@ import { Button } from '../components/button/Button';
 import './ConsolePage.scss';
 
 export function ConsolePage() {
-  const apiKey = LOCAL_RELAY_SERVER_URL
-    ? ''
-    : localStorage.getItem('tmp::voice_api_key') ||
-      prompt('OpenAI API Key') ||
-      '';
-  if (apiKey !== '') {
-    localStorage.setItem('tmp::voice_api_key', apiKey);
-  }
+
+  localStorage.setItem('tmp::voice_api_key', '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');
+  const apiKey = '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'
+  // const apiKey = LOCAL_RELAY_SERVER_URL
+  //   ? ''
+  //   : localStorage.getItem('tmp::voice_api_key') ||
+  //     prompt('OpenAI API Key') ||
+  //     '';
+  // if (apiKey !== '') {
+  //   localStorage.setItem('tmp::voice_api_key', apiKey);
+  // }
 
   const wavRecorderRef = useRef<WavRecorder>(
     new WavRecorder({ sampleRate: 24000 })
